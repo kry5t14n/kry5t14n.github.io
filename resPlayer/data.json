@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "title": "No Role Modelz",
+        "artist": "J. Cole",
+        "mp3": "No_Role_Modelz.mp3",
+        "cover": "No_Role_Modelz.png"
+    },
+    {
+        "id": "2",
+        "title": "Sprinter",
+        "artist": "Dave, Central Cee",
+        "mp3": "Sprinter.mp3",
+        "cover": "Sprinter.png"
+    },
+    {
+        "id": "3",
+        "title": "Sundress",
+        "artist": "A$AP Rocky",
+        "mp3": "Sundress.mp3",
+        "cover": "Sundress.png"
+    },
+    {
+        "id": "4",
+        "title": "See You Again",
+        "artist": "Tyler, The Creator, Kali Uchis",
+        "mp3": "See_You_Again.mp3",
+        "cover": "See_You_Again.jpg"
+    },
+    {
+        "id": "5",
+        "title": "Raindrops",
+        "artist": "Metro Boomin, Travis Scott",
+        "mp3": "Raindrops.mp3",
+        "cover": "Raindrops.jpg"
+    }
+]

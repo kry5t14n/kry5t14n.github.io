@@ -1,0 +1,113 @@
+*, ::after, ::before{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.screen{
+    border: 2px solid #fff;
+    height: 500px;
+    margin-bottom: 20px;
+    width: 1000px;
+}
+
+.character{
+    background: #fff;
+    height: 50px;
+    left: 475px;
+    position: relative;
+    top: 350px;
+    width: 50px;
+}
+
+.point{
+    background: #ffff00;
+    border-radius: 10px;
+    height: 20px;
+    position: relative;
+    width: 20px;
+}
+
+.menu{
+    align-items: top;
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+    width: 1000px;
+}
+
+.menucnt{
+    align-items: center;
+    background-image: url('../resGame/menu.png');
+    border: 2px solid #fff;
+    display: flex;
+    font-size: 30px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+}
+
+.score{
+    margin-bottom: 10px;
+}
+
+.startGame{
+    cursor: pointer;
+    height: 200px;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.resetBtn{
+    background: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    height: 30px;
+    text-align: center;
+    width: 80px;
+}
+
+.btnInvis{
+    background: #000 !important;
+    border-color: #000 !important;
+    color: #000 !important;
+    cursor: default;
+}
+
+.resetBtn:hover{
+    background: #fff;
+    color: #000;
+} 
+
+/* .enemy{
+    background: red;
+    height: 80px;
+    left: 485px;
+    position: relative;
+    top: -70px;res
+    width: 30px;
+} */
+
+.enemy{
+    background: #ff0000;
+    height: 30px;
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 30px;
+}

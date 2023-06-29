@@ -1,0 +1,137 @@
+*, ::after, ::before{
+    background: #000;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+
+.artist{
+    color: #ffffff99;
+    font-size: 2.5vh;
+    font-weight: 400;
+}
+
+audio{
+    width: 100%;
+}
+
+body{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.bottom{
+    align-items: center;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    height: 32%;
+}
+
+.container{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    height: 90vh;
+    width: 60vh;
+}
+
+.controls{
+    display: flex;
+    margin-top: 5vh;
+}
+
+.controls div{
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    height: 8vh;
+    justify-content: center;
+    margin: 0 4vh;
+    width: 8vh;
+}
+
+.controls div img{
+    background: #fff;
+    height: 4vh;
+    width: 4vh;
+}
+
+.currentTime{
+    background: none;
+    color: #ffffff99;
+    font-size: 2.5vh;
+    font-weight: 400;
+}
+
+.middle{
+    align-items: center;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    height: 14%;
+    justify-content: flex-end;
+}
+
+.top{
+    align-items: flex-end;
+    background: none;
+    display: flex;
+    height: 54%;
+    justify-content: center;
+}
+
+.top img{
+    height: 40vh;
+    width: 40vh;
+}
+
+.progress{
+    background: #ffffff50;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 1vh;
+    margin: 6vh 0 0 0;
+    -webkit-appearance: none;
+    width: 85%;
+}
+
+.progress::-webkit-slider-thumb{
+    background: #fff;
+    border-radius: 50%;
+    height: 2.3vh;
+    -webkit-appearance: none;
+    width: 2.3vh;
+}
+
+.song{
+    display: none;
+}
+
+.songLength{
+    background: none;
+    color: #ffffff99;
+    font-size: 2.5vh;
+    font-weight: 400;
+    margin-left: 42vh;
+}
+
+.songTime{
+    align-items: center;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 0.8vh;
+}
+
+.title{
+    font-size: 4vh;
+    font-weight: 500;
+}
