@@ -222,3 +222,29 @@ form input[type="submit"]:hover, form input[type="reset"]:hover{
     -ms-transition: background-color 200ms linear;
     transition: background-color 200ms linear;
 }
+
+.mobileInfo{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    .sideMenu{
+        display: none;
+    }
+
+    .main{
+        display: none;
+    }
+
+    .mobileInfo{
+        align-items: center;
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        width: 100vw;
+    }
+
+    .mobileInfo p{
+        font-size: 4.5vw;
+    }
+}
