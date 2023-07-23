@@ -2,7 +2,7 @@
     box-sizing: border-box;
     color: #fff;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 2.2vh;
     margin: 0;
     padding: 0;
 }
@@ -10,11 +10,11 @@
 @keyframes skillsRoll {
     0%{
         background-color: #000;
-        height: 100px;
+        height: 15vh;
     }
     100%{
         background-color: #fff;
-        height: 200px;
+        height: 20vh;
     }
 }
 
@@ -35,7 +35,7 @@ body{
 }
 
 .spacer{
-    height: 40px;
+    height: 8vh;
 }
 
 .sideMenu{
@@ -50,7 +50,7 @@ body{
 }
 
 .sideName{
-    font-size: 32px;
+    font-size: 4.2vh;
     font-weight: 800;
     margin-bottom: 4rem;
     text-decoration: none;
@@ -98,19 +98,19 @@ body{
 }
 
 .bold1{
-    font-size: 60px;
+    font-size: 8vh;
     font-weight: 600;
 }
 
 .bold2{
-    font-size: 60px;
+    font-size: 8vh;
     font-weight: 600;
 }
 
 .bold3{
-    font-size: 40px;
+    font-size: 5vh;
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: 6vh;
 }
 
 .mainSkillsSection{
@@ -118,7 +118,7 @@ body{
     background-color: #000;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 5vh;
     width: 100%;
 }
 
@@ -131,7 +131,8 @@ body{
 }
 
 .skillsImg{
-    margin: 0 50px;
+    height: 13vh;
+    margin: 0 7vh;
 }
 
 #mainContact{
@@ -140,14 +141,14 @@ body{
 
 form{
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: 6vh;
 }
 
 form input[type="text"], form textarea{
     background: #ffffff2f;
     border: 1px solid #ffffff2f;
-    margin-top: 8px;
-    padding: 5px;
+    margin-top: 2vh;
+    padding: 1.5vh;
 }
 
 form input[name="email"]{
@@ -155,16 +156,16 @@ form input[name="email"]{
 }
 
 form textarea{
-    height: 200px;
+    height: 30vh;
     width: 100%;
 }
 
 form input[type="submit"], form input[type="reset"]{
     color: #000;
     font-weight: 600;
-    height: 40px;
-    margin-right: 10px;
-    width: 80px;
+    height: 5vh;
+    margin-right: 2vh;
+    width: 10vh;
 }
 
 form input[type="submit"]:hover, form input[type="reset"]:hover{
@@ -173,13 +174,13 @@ form input[type="submit"]:hover, form input[type="reset"]:hover{
 }
 
 .contentTxt{
-    font-size: 20px;
+    font-size: 2.8vh;
 }
 
 .projectsCnt{
     border: 2px solid rgb(255, 255, 255);
-    height: 250px;
-    margin-top: 50px;
+    height: 30vh;
+    margin-top: 8vh;
     width: 70vw;
 }
 
@@ -216,7 +217,7 @@ form input[type="submit"]:hover, form input[type="reset"]:hover{
 
 .projectInner:hover{
     background-color: rgba(0, 0, 0, 0.7);
-    font-size: 30px;
+    font-size: 4vh;
     -webkit-transition: background-color 200ms linear;
     -ms-transition: background-color 200ms linear;
     transition: background-color 200ms linear;
