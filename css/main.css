@@ -227,31 +227,8 @@ form input[type="submit"]:hover, form input[type="reset"]:hover{
     display: none;
 }
 
-.topBar{
-    display: none;
-}
-
 @media only screen and (max-width: 600px){
-    
     .sideMenu{
-        display: block;
-        left: -70vw;
-        position: absolute;
-        width: 70vw;
-    }
-
-    .topBar{
-        border-bottom: 2px solid #ffffff2f;
-        background: red;
-        display: block;
-        height: 50px;
-        overflow: hidden;
-        position: fixed;
-        top: 0;
-        width: 100vw;
-    }
-
-    /* .sideMenu{
         display: none;
     }
 
@@ -269,5 +246,5 @@ form input[type="submit"]:hover, form input[type="reset"]:hover{
 
     .mobileInfo p{
         font-size: 4.5vw;
-    } */
+    }
 }
